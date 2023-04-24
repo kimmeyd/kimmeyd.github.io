@@ -1,0 +1,87 @@
+﻿body {
+    background-color: lightblue;
+    text-align: center;
+}
+.slidercontainer {
+    width: 100%;
+}
+.slider{
+    -webkit-appearance: none;
+    appearance:none;
+    width:100%;
+    height:25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.slider:hover{
+    opacity:1;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    appearance:none;
+    width:25px;
+    height:25px;
+    background: #04AA6D;
+    cursor:pointer;
+}
+.sliderLabel{
+    font-size:24px;
+}
+.sliderValue{
+    font-size:12px;
+}
+.outputImage{
+    width:100%;
+    height:100%;
+}
+.outputParent{
+    position:relative;
+    top:0;
+    left:0;
+}
+.outputImage{
+    position:absolute;
+    top:0;
+    left:0;
+    width:600px;
+    height:600px;
+}
+#outSlice1{
+    transform: rotate(0deg);
+    filter:hue-rotate(0deg);
+}
+#outSlice2 {
+    transform: rotate(40deg);
+    filter: hue-rotate(40deg);
+}
+#outSlice3 {
+    transform: rotate(80deg);
+    filter:hue-rotate(80deg);
+}
+#outSlice4 {
+    transform: rotate(120deg);
+    filter: hue-rotate(120deg);
+}
+#outSlice5 {
+    transform: rotate(160deg);
+    filter: hue-rotate(160deg);
+}
+#outSlice6 {
+    transform: rotate(200deg);
+    filter: hue-rotate(200deg);
+}
+#outSlice7 {
+    transform: rotate(240deg);
+    filter: hue-rotate(240deg);
+}
+#outSlice8 {
+    transform: rotate(280deg);
+    filter: hue-rotate(280deg);
+}
+#outSlice9 {
+    transform: rotate(320deg);
+    filter: hue-rotate(320deg);
+}
